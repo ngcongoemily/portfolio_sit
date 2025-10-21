@@ -1,0 +1,122 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;  /* Light page background */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+
+header {
+  background: #2e8b57;        /* Green header (SeaGreen tone) */
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #d1ffd6;             /* Light mint hover effect */
+}
+
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Specific section colors */
+#about {
+  background-color: #fff;     /* Clean white section */
+}
+
+#skills {
+  background-color: #e6f7ff;  /* Soft blue */
+}
+
+#projects {
+  background-color: #fef3c7;  /* Soft yellow */
+}
+
+#contact {
+  background-color: #2e8b57;  /* Same green as header */
+  color: white;
+}
+
+section img {
+  max-width: 200px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills li {
+  background: #ddd;
+  margin: 5px auto;
+  padding: 10px;
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+
+.project {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+
+footer {
+  background: #2e8b57;        /* Green footer */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  section {
+    padding: 15px;
+  }
+}
