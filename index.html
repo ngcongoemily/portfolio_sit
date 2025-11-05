@@ -1,11 +1,24 @@
-
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
+<head>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+
+  <!-- Optimised SEO Meta Tags -->
+  <title>Emily Ngcongo | Front-End Developer Portfolio</title>
+  <meta name="description" content="Explore Emily Ngcongo’s web development portfolio featuring responsive designs, coding projects, and front-end skills.">
+  <meta name="keywords" content="Emily Ngcongo, web developer, portfolio, HTML, CSS, JavaScript, responsive design">
+
+  <!-- Open Graph (Social Media Preview) -->
+  <meta property="og:title" content="Emily Ngcongo | Front-End Developer Portfolio">
+  <meta property="og:description" content="A showcase of Emily’s best web development projects and coding skills.">
+  <meta property="og:image" content="images/emily-portfolio-preview.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourportfolio.com">
+
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
   <header>
@@ -19,32 +32,43 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+ <button id="toggle-mode">Switch to Dark Mode</button>
+  
+    <p id="welcome-message"></p>
+    
   </header>
+
   <section id="about">
     <h2>About Me</h2>
-    <img src="download.JPEG" alt="my photo">
-    <p>Hi im emily and i really enjoy coding .</p>
+    <img src="download-1.JPEG" width="640" height="360" alt="Portrait of Emily Ngcongo, web developer" loading="lazy">>
+    <p>Hi im emily and i really enjoy coding.</p>
   </section>
-  <section id="skills">
-    <h2>My Skills</h2>
-    <ul>
-      <li>Python</li>
-      <li>SQL</li>
-      <li>HTML & CSS</li>
-    </ul>
-  </section>
+
+<section id="skills">
+  <h2>My Skills</h2>
+  <h3>Programming Languages</h3>
+  <ul>
+    <li>Python</li>
+    <li>SQL</li>
+    <li>HTML & CSS</li>
+  </ul>
+</section>
+
 
   <section id="projects">
     <h2>Projects</h2>
     <div class="project">
-      <img src="my project.JPEG" alt="Project screenshot">
+      <img src="my project-1.JPEG" width="640" height="360" alt="Project screenshot"loading="lazy">
       <p>This project of mine shows my ability to design and code responsive websites.</p>
     </div>
   </section>
-  <footer id="contact">
-    <p>Contact: tlhakingwane@example.com</p>
-    <p>&copy; emily ngcongo. All Rights Reserved.</p>
-  </footer>
 
+<footer id="contact">
+  <p>Contact: tlhakingwane@exam.com</p>
+  <p><a href="#home">Back to Top</a></p>
+  <p>&copy; 2025 Emily Ngcongo. All Rights Reserved.</p>
+</footer>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
